@@ -5,7 +5,7 @@
  *   File: labPracticeTable.java
  */
 
-package Lab;
+package lab;
 
 public class labPracticeTable {
     public static void main(String[] args) {
