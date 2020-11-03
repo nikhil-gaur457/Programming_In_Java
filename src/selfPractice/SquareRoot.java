@@ -15,7 +15,7 @@ public class SquareRoot {
         System.out.print("Please enter a number to find square root : ");
         Scanner scanner = new Scanner(System.in);
         number = scanner.nextDouble();
-        result = number*number;
+        result = Math.sqrt(number);
         System.out.println("Square root of given number is " + result);
     }
 }
