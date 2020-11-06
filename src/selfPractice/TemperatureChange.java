@@ -12,8 +12,8 @@ import java.util.Scanner;
 public class TemperatureChange {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter your Temperature condition :: 1 for celsius or " +
-                "2 for fahrenheit or 3 for kelvin -> ");
+        System.out.println("Enter your Temperature condition :\n1 for celsius\n2 for fahrenheit\n3 for kelvin");
+        System.out.print("Enter your condition : ");
         int temperatureCondition = scanner.nextInt();
         if (temperatureCondition == 1) {
             System.out.print("Enter the temperature in Celsius : ");
