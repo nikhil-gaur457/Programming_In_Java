@@ -17,14 +17,13 @@ public class ArmstrongNumber {
         number = scanner.nextInt();
         copy = number;
         while (number != 0) {
-            remainder = number%10;
-            sum = sum + (remainder*remainder*remainder);
-            number = number/10;
+            remainder = number % 10;
+            sum = sum + (remainder * remainder * remainder);
+            number = number / 10;
         }
         if (copy == sum) {
             System.out.println("Number is armstrong");
-        }
-        else {
+        } else {
             System.out.println("Number is not armstrong");
         }
     }
