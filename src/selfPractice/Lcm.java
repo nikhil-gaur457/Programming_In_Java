@@ -9,7 +9,7 @@ package selfPractice;
 
 import java.util.Scanner;
 
-public class Lcm {
+class LcmAndHcf {
     public static void main(String[] args) {
         int HCF = 0, LCM;
         Scanner scanner = new Scanner(System.in);
