@@ -11,7 +11,7 @@ import java.util.Scanner;
 
 public class Lcm {
     public static void main(String[] args) {
-        int gcd = 0, LCM;
+        int HCF = 0, LCM;
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter both numbers : ");
         int num1 = scanner.nextInt();
@@ -19,10 +19,11 @@ public class Lcm {
         scanner.close();
         for (int i = 1; i <= num1 && i <= num2; i++) {
             if (num1 % i == 0 && num2 % i == 0) {
-                gcd = i;
+                HCF = i;
             }
         }
-        LCM = (num1*num2)/gcd;
+        LCM = (num1*num2)/HCF;
         System.out.println("L.C.M of both numbers is " + LCM);
+        System.out.println("HCF of two numbers is " + HCF);
     }
 }
