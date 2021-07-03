@@ -2,7 +2,7 @@
  *   Author: Nikhil gaur (nikhil-gaur457)
  *   Date: 19-03-2021
  *   Time: 23:16
- *   File: ObjectSoerting.java
+ *   File: ObjectSorting.java
  */
 
 package comparableAndComparator;
