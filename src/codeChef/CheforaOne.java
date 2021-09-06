@@ -67,7 +67,6 @@ public class CheforaOne {
         public inputReader() {
             br = new BufferedReader(new InputStreamReader(System.in));
         }
-
         String next() {
             while (st == null || !st.hasMoreElements()) {
                 try {
