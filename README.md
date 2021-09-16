@@ -1,2 +1,2 @@
 # Do some basics in java
-  hey guyz you all can see the code for learning java from beginning.
+  hey guyz you all can see the codes for learning java from beginning.
