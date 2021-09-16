@@ -12,15 +12,11 @@ import java.util.Scanner;
 
 public class LinkedListExample {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter the size of linkedList");
-        int n = scanner.nextInt();
-
         // Declaring the LinkedList
         LinkedList<Integer> linkedList = new LinkedList<>();
 
         // Appending elements in LinkedList
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i <= 5; i++) {
             linkedList.add(i);
         }
 
@@ -31,7 +27,7 @@ public class LinkedListExample {
         System.out.println(linkedList);
 
         for (Integer integer : linkedList) {
-            System.out.print(linkedList.get(integer) + " ");
+            System.out.print(integer + " ");
         }
 
     }
