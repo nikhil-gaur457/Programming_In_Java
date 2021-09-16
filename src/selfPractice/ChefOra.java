@@ -15,7 +15,7 @@ public class ChefOra {
         int[] a = new int[100001];
         int[] preArray = new int[100001];
         for (int i = 1; i < 100001; i++) {
-            a[i] = chefora(i);
+            a[i] = chefOra(i);
             preArray[i] = preArray[i - 1] + a[i];
         }
         int T = scanner.nextInt();
@@ -27,7 +27,7 @@ public class ChefOra {
         }
     }
 
-    public static int chefora(int number) {
+    public static int chefOra(int number) {
         int chefNum = number;
         int returnNumber;
         if (number < 10) {
