@@ -17,8 +17,7 @@ public class TreeSetExample {
         treeSet.add("Gaur");
         treeSet.add("B.tech");
         treeSet.add("Computer Science");
-        treeSet.add("Third Semester");
-        treeSet.add("D Show");
+        treeSet.add("Fifth Semester");
 
 
         /*
