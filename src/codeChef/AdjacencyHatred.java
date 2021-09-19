@@ -15,14 +15,14 @@ public class AdjacencyHatred {
         int T = scanner.nextInt();
         while (T-- > 0) {
             int N = scanner.nextInt();
-            int[] arr = new int[N];
+            int[] lovely = new int[N];
             for (int i = 0; i < N; i++) {
-                arr[i] = scanner.nextInt();
+                lovely[i] = scanner.nextInt();
             }
             int even = 0;
             int odd = 0;
             for (int i = 0; i < N; i++) {
-                if (arr[i] % 2 == 0) {
+                if (lovely[i] % 2 == 0) {
                     even++;
                 } else {
                     odd++;
@@ -36,13 +36,13 @@ public class AdjacencyHatred {
             }
             if (odd > 0 && even > 0) {
                 for (int i = 0; i < N; i++) {
-                    if (arr[i] % 2 != 0) {
-                        System.out.print(arr[i] + " ");
+                    if (lovely[i] % 2 != 0) {
+                        System.out.print(lovely[i] + " ");
                     }
                 }
                 for (int i = 0; i < N; i++) {
-                    if (arr[i] % 2 == 0) {
-                        System.out.print(arr[i] + " ");
+                    if (lovely[i] % 2 == 0) {
+                        System.out.print(lovely[i] + " ");
                     }
                 }
             }
