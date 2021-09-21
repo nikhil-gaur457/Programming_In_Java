@@ -7,6 +7,7 @@
 
 package selfPractice;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 class KadaneAlgorithm {
@@ -17,24 +18,14 @@ class KadaneAlgorithm {
         for (int i = 0; i < sizeOfArray; i++) {
             arr[i] = scanner.nextInt();
         }
-        int sumOfNegatives = 0;
-        int sumOfPositives = 0;
+        Arrays.sort(arr);
         int subArraySum = 0;
         for (int i = 0; i < sizeOfArray; i++) {
-            if (arr[i] < 0) {
-                sumOfNegatives = sumOfNegatives + arr[i];
-            }
+            subArraySum = subArraySum + arr[i];
         }
-        for (int i = 0; i < sizeOfArray; i++) {
-            if (arr[i] >= 0) {
-                sumOfPositives = sumOfPositives + arr[i];
-            }
+        if (subArraySum < 0) {
+            subArraySum = arr[sizeOfArray-1];
         }
-        subArraySum = sumOfPositives - sumOfNegatives;
         System.out.println(subArraySum);
-        if (subArraySum <= -1) {
-            subArraySum = arr[sizeOfArray];
-            System.out.println(subArraySum);
-        }
     }
 }
