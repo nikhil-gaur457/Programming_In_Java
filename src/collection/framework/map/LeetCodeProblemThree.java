@@ -31,6 +31,6 @@ public class LeetCodeProblemThree {
         Scanner scanner = new Scanner(System.in);
         String s = scanner.nextLine();
         LeetCodeProblemThree obj = new LeetCodeProblemThree();
-        System.out.println(obj.lengthOfLongestSubstring(s));;
+        System.out.println(obj.lengthOfLongestSubstring(s));
     }
 }
